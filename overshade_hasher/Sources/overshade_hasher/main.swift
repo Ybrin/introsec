@@ -35,8 +35,6 @@ while !hashed {
     let password = Data([UInt8].secureRandom(count: 19)!)
     let hash = password.sha1()
 
-    print(hash.toHexString())
-
     if counter % 10000 == 0 {
         print("COUNTER: \(counter)")
     }
