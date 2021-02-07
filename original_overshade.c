@@ -14,7 +14,7 @@ main(void) {
         unsigned char password[20];
 
         printf("Insert your password: ");
-        scanf("%37s", password);
+        scanf("%20s", password);
         SHA1(password, strlen((char *)password), password);
         if(memcmp(password, correct_hash, 20) == 0) {
                 printf("CORRECT PASSWORD!\n");

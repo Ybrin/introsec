@@ -21,7 +21,7 @@ main(void) {
         printf("\n");
 
         printf("Insert your password: ");
-        scanf("%37s", password);
+        scanf("%20s", password);
 
         for (int i = 0; i < 40; i++) {
           printf("%d ", password[i]);
